@@ -1,1 +1,79 @@
-/*Schrijf hier jouw CSS*/
+
+.header{
+    display: flex;
+    flex-direction: column;
+flex-grow: 0;
+    flex-shrink: 0;
+
+
+}
+
+
+.header1{
+
+
+flex-basis:80px;
+
+
+}
+
+
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+flex-grow: 1;
+    flex-shrink: 0;
+
+}
+
+
+    .article {
+
+        flex-basis: 80vw;
+min-height: 80vh;
+
+
+    }
+
+
+
+.nav{
+
+    flex-basis: 30vw;
+    min-height: 10vh;
+
+
+}
+
+
+.aside{
+
+    flex-basis: 30vw;
+    min-height: 10vh;
+
+}
+
+
+
+.footer{
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.footer1{
+
+    flex-basis:80px;
+}
+
+
+
+
+
+
+
+
+
