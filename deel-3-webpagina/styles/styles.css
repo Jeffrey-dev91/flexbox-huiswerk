@@ -1,1 +1,127 @@
-/*Schrijf hier jouw css*/
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#F2F3D9;
+}
+
+
+
+
+.topnav {
+
+    overflow: hidden;
+    background-color: #030027;
+    min-width: 90vw;
+    min-height: 10vh;
+}
+
+    .topnav a {
+        float: right;
+        align-items: center;
+
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 25px;
+    }
+
+.topnav .nav-left{
+   display: flex;
+    flex-direction: row;
+text-align: start;
+font-size: 25px;
+float: left;
+
+}
+
+
+
+
+
+
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+    background-color:#F2F3D9;
+
+
+
+
+
+
+
+    .header6 {
+
+
+        justify-content: center;
+        h1, h3 {
+            text-align: center;
+
+
+        }
+
+    }
+
+
+}
+
+
+.article6 {
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+  gap: 50px;
+flex-shrink: 1;
+flex-basis: auto;
+flex-grow: 0;
+
+
+
+
+    .article7 {
+
+        display: flex;
+        flex-direction: row;
+
+align-items: end;
+        background-color: #C16E70;
+        max-width: 280px;
+        min-height: 350px;
+
+flex-shrink: 1;
+flex-grow: 0;
+    }
+
+
+    .article8 {
+
+        display: flex;
+        flex-direction: row;
+align-items: end;
+        background-color: #C16E70;
+        max-width: 280px;
+        min-height: 350px;
+flex-shrink: 1;
+        flex-grow: 0;
+    }
+
+.article9 {
+    display: flex;
+    flex-direction: row;
+align-items: end;
+    background-color: #C16E70;
+    max-width: 280px;
+    min-height: 350px;
+flex-shrink: 1;
+flex-grow: 0;
+}
+
+
+}
+
+
+

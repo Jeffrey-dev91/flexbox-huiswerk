@@ -1,1 +1,91 @@
 /*Schrijf hier jouw CSS*/
+
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    max-width: 100%;
+
+
+}
+
+
+.outer-col-1{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20vw;
+    min-height: 100vh;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+
+.outer-col-2{
+    display: flex;
+flex-direction: column;
+
+
+}
+.header4{
+
+flex-basis: 15vh;
+    min-width: 80vw;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+
+.inner-row{
+display: flex;
+    flex-direction: row;
+
+
+
+    .article4 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        flex-basis: auto;
+        min-width: 60vw;
+        min-height: 70vh;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+
+    .footer4 {
+display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+flex-basis: auto;
+        min-width: 60vw;
+        min-height: 15vh;
+        flex-grow: 0;
+        flex-shrink: 0;
+
+    }
+}
+
+    .aside2 {
+display: flex;
+        flex-direction: column;
+        align-items: flex-start ;
+        flex-basis: auto;
+        min-width: 20vw;
+        min-height: 40vh;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
